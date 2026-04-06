@@ -1,0 +1,11 @@
+name = "pc-shop-frontend"
+pages_build_output_dir = "dist"
+
+[vars]
+# API URL for production
+VITE_API_URL = "https://your-api-domain.com"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
